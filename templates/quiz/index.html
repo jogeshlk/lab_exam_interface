@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<style>
+  .jumbotron{
+    margin-bottom: 0px;
+    height:100%;
+    
+    
+  }
+  #container{
+    padding:50%;
+  }
+</style>
+<body>
+  {% include "quiz/navbar.html" %}
+<br>
+<section id="section-jumbotron" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center">
+  <div class="container text-center">
+    <h1 class="display-1 text-info">RGUKT BASAR</h1>
+
+    <a href="/student/studentsignup" class="btn btn-lg btn-info" style="padding-right: 35px;"><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</a>
+    
+    <br><br><br>
+  </div>  
+</section>
+
+
+</body>
+
+</html>
